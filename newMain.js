@@ -11,4 +11,4 @@ document.querySelector('.tecla_kid').onclick = tocaSomKid;
 function tocaSomBemVindo(){
     document.querySelector('#som_tecla_bem_vindo').play();
 }
-document.querySelector('.tecla_bem_vindo').onclick = tocaSomBem;
+document.querySelector('.tecla_bem_vindo').onclick = tocaSomBemVindo;
