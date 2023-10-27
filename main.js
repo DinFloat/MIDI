@@ -3,6 +3,13 @@ function tocaSomShoryuken(){
 }
 document.querySelector('.tecla_shoryuken').onclick = tocaSomShoryuken;
 
+function tocaSomKid(){
+    document.querySelector('#som_tecla_kid').play();
+}
+document.querySelector('.tecla_kid').onclick = tocaSomKid;
+
+//divisão
+
 function tocaSomPom(){
     document.querySelector('#som_tecla_pom').play();
 }
