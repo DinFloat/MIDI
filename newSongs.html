@@ -19,11 +19,11 @@
 </head>
 
 <body>
-  <button><a href="newSongs.html">New Songs</a></button>
+  <button><a href="index.html">Velhos Sons</a></button>
   <section class="teclado">
+    <button onclick="tocaSomShoryuken()" class="tecla tecla_shoryuken">Shoryu</button>
     <button onclick="tocaSomPom()" class="tecla tecla_pom">Pom</button>
     <button onclick="tocaSomClap()" class="tecla tecla_clap">Clap</button>
-    <button onclick="tocaSomTim()" class="tecla tecla_tim">Tim</button>
 
     <button onclick="tocaSomPuff()" class="tecla tecla_puff">Puff</button>
     <button onclick="tocaSomSplash()" class="tecla tecla_splash">Splash</button>
@@ -34,9 +34,9 @@
     <button onclick="tocaSomTom()" class="tecla tecla_tom">Tom</button>
   </section>
 
+  <audio src="sounds/shoryuken.mp3" id="som_tecla_shoryuken"></audio>
   <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
   <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
-  <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
   <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
   <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
   <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
