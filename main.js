@@ -13,6 +13,10 @@ function tocaSomBemVindo(){
 }
 document.querySelector('.tecla_bem_vindo').onclick = tocaSomBemVindo;
 
+function tocaSomFino(){
+    document.querySelector('#som_tecla_fino').play();
+}
+document.querySelector('.tecla_fino').onclick = tocaSomFino;
 //espaço
 
 function tocaSomPom(){
